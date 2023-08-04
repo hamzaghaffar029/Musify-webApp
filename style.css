@@ -146,9 +146,10 @@ ul li input {
 .controls{
     /* border: 2px solid red; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0px 23px;
     align-items: center;
+    height: 23px;
 }
 #progressBar{
     width: 100vh;
