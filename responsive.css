@@ -20,7 +20,7 @@
         position:relative;
     }
     #progressBar{
-        width:206px;
+        width:22vh;
     }
     #container{
         margin-left: 0px;
@@ -59,18 +59,13 @@
         margin-left: 0px;
         margin-top: 8px;
     }
-    /* .controls{
-        height: 63px;
+    .controls{
+        /* height: 63px; */
         margin: 0px 0px;
     }
     .icons{
-        margin-right: 0px;
-        margin-top: 23px;
-        
+        margin-right: 12px;
     }
-    .icons i{
-        padding: 0px 13px;
-    } */
 }
 @media screen and (max-width: 1800px) and (min-width:1390px) and (max-height:1200px) and (min-height: 880px){
     #sideBar li{
