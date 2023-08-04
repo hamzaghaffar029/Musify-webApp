@@ -1,0 +1,79 @@
+ @media screen and (max-width: 414px) and (max-height:918px) {
+    .views{
+        display:none;
+    }
+    .title{
+        width: 337px;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #sideBar{
+        display: none;
+    }
+    nav{
+        flex-direction: column;
+        height: 144px;
+    }
+    nav ul{
+        position:relative;
+    }
+    #progressBar{
+        width:24vh;
+    }
+    #container{
+        margin-left: 0px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .songListButton{
+        width: 40px;
+        height: 40px;
+    }
+    .duration{
+        padding: 0px;
+    display: none; 
+    }
+    .songList img{
+        height: 55px;
+    }
+    .songName{
+        margin-left: 12px;
+        width: 230px;
+    }
+    nav > img{
+        display: none;
+        
+    }
+    nav h1{
+        margin: 23px 0px;
+    }
+    #bottom{
+        font-size: 12px;
+        flex-direction: column;
+        height: 127px;
+    }
+    #bottom > img{
+        height: 55px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 1500px) and (min-width:1390px) and (max-height:1000px) and (min-height: 880px){
+    #sideBar li{
+        width: 27vh;
+    }
+    #sideBar{
+        width: 32vh;
+    }
+    #container{
+        width: 70%;
+        margin-left: 308px;
+
+    }
+    #progressBar {
+        width: 79vh;
+        cursor: pointer;
+    }
+}

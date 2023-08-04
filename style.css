@@ -18,7 +18,7 @@ body {
 /* nav bar */
 
 nav {
-  /* border: 2px solid red; */
+  /* border: 1px solid red; */
   position: sticky;
   top: 0px;
   display: flex;
@@ -31,7 +31,7 @@ nav ul {
   display: flex;
   position: absolute;
   right: 12px;
-  /* border: 2px solid red; */
+  /* border: 1px solid red; */
   align-items: center;
 }
 ul li {
@@ -119,7 +119,7 @@ ul li input {
     padding-bottom: 5px;
     background-color: var(--background-color);
 }
-#bottom > img{
+#bottom >  img{
     height: 78px;
     margin-left: 28px;
     border-radius: 8px;
@@ -228,7 +228,7 @@ ul li input {
     }
 
     .duration, .views{
-        padding: 80px;
+        padding: 0px 80px;
     }
 
 
@@ -247,3 +247,4 @@ ul li input {
     border-color:rgb(2, 99, 255) ;
     transition: 0.4s;
     }
+
