@@ -192,7 +192,3 @@ forward.addEventListener("click", ()=>{
     masterPlay.classList.add('fa-circle-pause');
 })
 
-// let x = 3;
-// console.log(x)
-// x = 5;
-// console.log(x)
