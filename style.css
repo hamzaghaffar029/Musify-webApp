@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@200&display=swap");
+
+:root {
+  --background-color: rgb(31, 29, 29);
+  --text-color: rgb(63, 61, 61);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: var(--background-color);
+  color: white;
+}
+
+/* nav bar */
+
+nav {
+  /* border: 2px solid red; */
+  position: sticky;
+  top: 0px;
+  display: flex;
+  color: white;
+  height: 63px;
+  align-items: center;
+  background-color: var(--background-color);
+}
+nav ul {
+  display: flex;
+  position: absolute;
+  right: 12px;
+  /* border: 2px solid red; */
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  padding: 0px 12px;
+}
+nav img {
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+nav > img {
+  margin-left: 12px;
+  padding-right: 5px;
+}
+
+nav h1 {
+  font-size: 34px;
+  cursor: pointer;
+}
+ul li input {
+  border: none;
+  border-radius: 34px;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+/* Side Bar */
+
+#sideBar {
+  /* border: 2px solid red; */
+  width: 40vh;
+  height: 74vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "REM", sans-serif;
+  position: fixed;
+  left: 0px;
+  
+}
+#sideBar li {
+  /* border: 2px solid white; */
+  width: 30vh;
+  font-size: 15px;
+  list-style: none;
+  padding: 10px 0px;
+  padding-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#sideBar li a {
+  text-decoration: none;
+  color: white;
+}
+#sideBar li:hover {
+  background-color: gray;
+  color: white;
+  transition-duration: 0.4s;
+  font-weight: bold;
+}
+
+#sideBar li i {
+  padding-right: 5px;
+}
+.line {
+  border-color: gray;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  /* width: 34px; */
+}
+
+/* Bottom Bar */
+
+#bottom{
+    /* border: 0.001px solid red; */
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+    font-family: "REM", sans-serif;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    background-color: var(--background-color);
+}
+#bottom > img{
+    height: 78px;
+    margin-left: 28px;
+    border-radius: 8px;
+}
+#masterSongName{
+    margin-left: 12px;
+    /* border: 2px solid red; */
+    
+}
+#gif{
+    height: 15px;
+    margin-left: 12px;
+    margin-top: 3px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.title{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+}
+.controls{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin: 0px 23px;
+    align-items: center;
+}
+#progressBar{
+    width: 100vh;
+    cursor: pointer;
+}
+.icons{
+    margin-right: 25px;
+}
+.icons i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+/* Container */
+
+#container{
+    /* border: 2px solid red; */
+    height: fit-content;
+    width: 80%;
+    margin-left: 228px;
+    font-family: "REM", sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+}
+.songList{
+    /* border: 2px solid wheat; */
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding:12px 0px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+/* .songList img, .songList span{
+    padding: 0px 63px;
+} */
+.songList img{
+    padding-right: 0px;
+    height: 75px;
+    border-radius: 8px;
+    /* border: 2px solid white; */
+    padding-left: 0px;
+    margin-left: 15px;
+
+}
+
+.songListButton{
+    border: 1px solid rgb(164, 164, 164);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    /* border: none; */
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    margin-left: 12px;
+    cursor: pointer;
+}
+.songList button:hover{
+    background-color: rgb(2, 99, 255);
+    border-color:rgb(2, 99, 255) ;
+}
+.songList:hover{
+        background-color: gray;
+        color: white;
+        transition-duration: 0.4s;
+        font-weight: bold;
+      }
+    .songName{
+        /* border: 2px solid red; */
+        padding-right: 0px;
+        width: 350px;
+        margin-left: 40px;
+    }
+
+    .duration, .views{
+        padding: 80px;
+    }
+
+
+    /* classes for js */
+
+    .gray{
+        background-color: gray;
+        transition: 0.4s;
+    }
+    .resetGray{
+        background-color: var(--background-color);
+        transition: 0.4s;
+    }
+    .blueButton{
+    background-color: rgb(2, 99, 255);
+    border-color:rgb(2, 99, 255) ;
+    transition: 0.4s;
+    }
