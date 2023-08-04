@@ -146,7 +146,7 @@ ul li input {
 .controls{
     /* border: 2px solid red; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0px 23px;
     align-items: center;
     height: 23px;
